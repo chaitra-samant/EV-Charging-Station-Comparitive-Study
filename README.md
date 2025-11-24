@@ -233,15 +233,15 @@ Each `results/` folder contains:
 
 ### Convergence Plots (p=10 Stations)
 
-![GA Convergence](GA/results/convergence_p10.png)
-![PSO Convergence](PSO/results/convergence_p10.png)
-![SA-GA Convergence](SA_GA/results/convergence_p10.png)
+|                           GA                            |                            PSO                            |                             SA-GA                             |
+| :-----------------------------------------------------: | :-------------------------------------------------------: | :-----------------------------------------------------------: |
+| ![GA Convergence](GA/results/plots/convergence_p10.png) | ![PSO Convergence](PSO/results/plots/convergence_p10.png) | ![SA-GA Convergence](GA-SA/results/plots/convergence_p10.png) |
 
 _Left: GA shows steady but slower improvement. Center: PSO reaches solution quickly but plateaus higher. Right: SA-GA combines rapid descent with superior final fitness._
 
 ### Average Distance Trends Across p Values
 
-![Algorithm Comparison](GA/results/avg_distance_comparison.png)
+![Algorithm Comparison](GA-SA/results/plots/cost_comparison.png)
 
 _All three algorithms improve customer accessibility as more stations are deployed; SA-GA maintains consistently lower distances._
 
